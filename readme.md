@@ -32,3 +32,9 @@ int DisableETW(void) {
 
 // https://github.com/Allevon412/BreadBear/blob/4f1f5da39b423f0655df9338e01c8b733c6d1152/stage1/Evasion.c
 ```
+
+## CS Loader
+* AceLdr [ https://github.com/kyleavery/AceLdr ]
+
+
+
