@@ -1,3 +1,12 @@
+一些常见终端绕过技术
+
+
+
+## CS Loader
+* AceLdr [ https://github.com/kyleavery/AceLdr ], 具备`shellcode`运行时加解密, 调用栈伪造等特性 (TitanLdr框架 + FOLIAGE + RET_ADDR_SPOOFING)
+* TitanLdr [ https://github.com/kyleavery/TitanLdr ], 原版 D2H 的`shellcode`加载器, 粗略看过一遍
+
+
 ## Bypass ETW
 
 ```C
@@ -32,9 +41,3 @@ int DisableETW(void) {
 
 // https://github.com/Allevon412/BreadBear/blob/4f1f5da39b423f0655df9338e01c8b733c6d1152/stage1/Evasion.c
 ```
-
-## CS Loader
-* AceLdr [ https://github.com/kyleavery/AceLdr ]
-
-
-
