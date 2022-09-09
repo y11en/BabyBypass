@@ -1,14 +1,19 @@
-一些常见终端绕过技术
+一些常见终端绕过（或检测）技术
 
 
+## Bypass UAC
+* 通过环境变量(DLL)劫持iscsicpl, 不支持win7 [ https://github.com/zha0gongz1/iscsicpl_bypassUAC ]
+* ICMLuaUtil接口(通杀win7-win11 墙裂推荐⭐) https://github.com/0xlane/BypassUAC/blob/master/BypassUAC/main.cpp
 
-## CS Loader
+## CS(SHELLCODE) 内存检测
+* https://github.com/thefLink/Hunt-Sleeping-Beacons
+
+## CS(SHELLCODE) 加载器
 * AceLdr [ https://github.com/kyleavery/AceLdr ], 具备`shellcode`运行时加解密, 调用栈伪造等特性 (TitanLdr框架 + FOLIAGE + RET_ADDR_SPOOFING)
 * TitanLdr [ https://github.com/kyleavery/TitanLdr ], 原版 D2H 的`shellcode`加载器, 粗略看过一遍
 
 
 ## Bypass ETW
-
 ```C
 
 int DisableETW(void) {
