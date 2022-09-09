@@ -1,6 +1,6 @@
 # 基础学科
 * 反射加载器 [ https://github.com/monoxgas/sRDI ]
-
+* 调用栈伪造 [ https://github.com/WithSecureLabs/CallStackSpoofer ]
 # 常见终端绕过（或检测）技术
 
 ## Bypass UAC
@@ -13,6 +13,7 @@
 ## CS(SHELLCODE) 加载器
 * AceLdr [ https://github.com/kyleavery/AceLdr ], 具备`shellcode`运行时加解密, 调用栈伪造等特性 (TitanLdr框架 + FOLIAGE + RET_ADDR_SPOOFING)
 * TitanLdr [ https://github.com/kyleavery/TitanLdr ], 原版 D2H 的`shellcode`加载器, 粗略看过一遍
+
 
 ## Bypass ETW
 ```C
