@@ -1,6 +1,10 @@
 # 基础学科
+
 * 反射加载器 [ https://github.com/monoxgas/sRDI ]
 * 调用栈伪造 [ https://github.com/WithSecureLabs/CallStackSpoofer , https://github.com/Barracudach/CallStack-Spoofer ]
+* Wow64进程执行64位代码 [ https://github.com/rwfpl/rewolf-wow64ext ]
+
+
 # 常见终端绕过（或检测）技术
 
 ## Bypass UAC
