@@ -9,7 +9,7 @@
 
 ## Bypass UAC
 * 通过环境变量(DLL)劫持iscsicpl, 不支持win7 [ https://github.com/zha0gongz1/iscsicpl_bypassUAC ]
-* ICMLuaUtil接口(通杀win7-win11 墙裂推荐⭐) https://github.com/0xlane/BypassUAC/blob/master/BypassUAC/main.cpp
+* ICMLuaUtil接口(通杀win7-win11 墙裂推荐⭐) [ https://github.com/dro/uac-launchinf-poc/blob/master/poc.c ]
 
 ## CS(SHELLCODE) 内存检测
 * https://github.com/thefLink/Hunt-Sleeping-Beacons
