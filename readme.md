@@ -23,4 +23,4 @@
 - [TitanLdr 原版 D2H 的`shellcode`加载器, 粗略看过一遍]( https://github.com/kyleavery/TitanLdr )
 
 ## Bypass ETW
-- <https://github.com/Allevon412/BreadBear/blob/4f1f5da39b423f0655df9338e01c8b733c6d1152/stage1/Evasion.c>
+- <https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/>
