@@ -4,6 +4,8 @@
 - 调用栈伪造 [ https://github.com/WithSecureLabs/CallStackSpoofer , https://github.com/Barracudach/CallStack-Spoofer ]
 - Wow64 进程执行 64 位代码 [ https://github.com/rwfpl/rewolf-wow64ext ]
 - 别人写好的shellcode 弹calc,这样我就不用写了 [ https://github.com/peterferrie/win-exec-calc-shellcode ]
+- trick method (Win32), [ https://github.com/vxunderground/VX-API ]
+
 # 常见终端绕过（或检测）技术
 
 ## Bypass UAC
