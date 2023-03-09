@@ -27,3 +27,6 @@
 ## Bypass ETW
 - <https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/>
 - <https://github.com/seahop/patchETW/blob/main/patchETW.c>
+
+## Luajit
+- http://luajit.org/ , Good job
