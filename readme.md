@@ -28,5 +28,6 @@
 - <https://whiteknightlabs.com/2021/12/11/bypassing-etw-for-fun-and-profit/>
 - <https://github.com/seahop/patchETW/blob/main/patchETW.c>
 
-## Luajit
-- http://luajit.org/ , Good job
+## 个人觉得不错的开源项目
+- http://luajit.org/ , luajit , 加上 C,C++，要啥自行车? 
+- https://github.com/ccxvii/mujs , 开源的JS引擎，对理解编译原理有很好的帮助
