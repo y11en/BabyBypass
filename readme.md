@@ -11,6 +11,8 @@
 	-  https://github.com/peterferrie/win-exec-calc-shellcode
 - Some trick methods (Win32)
 	-  https://github.com/vxunderground/VX-API 
+- 自用的shellcode框架
+	- https://github.com/y11en/babysc.git
 
 # 常见终端绕过（或检测）技术
 
