@@ -1,16 +1,23 @@
 # 基础学科
 
-- 反射加载器 [ https://github.com/monoxgas/sRDI ]
-- 调用栈伪造 [ https://github.com/WithSecureLabs/CallStackSpoofer , https://github.com/Barracudach/CallStack-Spoofer ]
-- Wow64 进程执行 64 位代码 [ https://github.com/rwfpl/rewolf-wow64ext ]
-- 别人写好的shellcode 弹calc,这样我就不用写了 [ https://github.com/peterferrie/win-exec-calc-shellcode ]
-- Some trick methods (Win32), [ https://github.com/vxunderground/VX-API ]
+- 反射加载器
+	- https://github.com/monoxgas/sRDI 
+- 调用栈伪造
+	-  https://github.com/WithSecureLabs/CallStackSpoofer
+ 	-  https://github.com/Barracudach/CallStack-Spoofer 
+- Wow64 进程执行 64 位代码
+	- https://github.com/rwfpl/rewolf-wow64ext
+- 别人写好的shellcode 弹calc,这样我就不用写了
+	-  https://github.com/peterferrie/win-exec-calc-shellcode
+- Some trick methods (Win32)
+	-  https://github.com/vxunderground/VX-API 
 
 # 常见终端绕过（或检测）技术
 
 ## Bypass UAC
 
-- [通过环境变量(DLL)劫持 iscsicpl, 不支持 win7](https://github.com/zha0gongz1/iscsicpl_bypassUAC)
+- 通过环境变量(DLL)劫持 iscsicpl, 不支持 win7
+	- https://github.com/zha0gongz1/iscsicpl_bypassUAC
 - ICMLuaUtil 接口(通杀 win7-win11 墙裂推荐 ⭐)
 	- [ShellExecute 版本](https://github.com/0xlane/BypassUAC/blob/master/BypassUAC/main.cpp)
 	- [LaunchInf 版本](https://github.com/dro/uac-launchinf-poc/blob/master/poc.c)
